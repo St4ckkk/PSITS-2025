@@ -1,5 +1,5 @@
-### Common Escape Sequence
-## Here are some of the common escape sequences in C++:
+# Common Escape Sequence
+### Here are some of the common escape sequences in C++:
 - `\n`: Newline - Moves the cursor to the beginning of the next line.
 - `\t`: Tab - Inserts a horizontal tab.
 - `\"`: Double quote - Inserts a double quote character.
