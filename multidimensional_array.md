@@ -1,11 +1,13 @@
-1. Matrix Diagonal Sum
-   #include <iostream>
-   using namespace std;
+# 1. Matrix Diagonal Sum
+
+```cpp
+#include <iostream>
+using namespace std;
 
 int main() {
-int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-int n = 3;
-int sum = 0;
+    int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int n = 3;
+    int sum = 0;
 
     for (int i = 0; i < n; ++i) {
         sum += matrix[i][i]; // Primary diagonal
@@ -16,13 +18,19 @@ int sum = 0;
 
     cout << "Diagonal Sum: " << sum << endl;
     return 0;
+}
+```
 
-} 2. Pascal's Triangle
+---
+
+# 2. Pascal's Triangle
+
+```cpp
 #include <iostream>
 using namespace std;
 
 void generatePascal(int numRows) {
-int triangle[10][10] = {0};
+    int triangle[10][10] = {0};
 
     for (int i = 0; i < numRows; ++i) {
         triangle[i][0] = triangle[i][i] = 1;
@@ -37,20 +45,26 @@ int triangle[10][10] = {0};
         }
         cout << endl;
     }
-
 }
 
 int main() {
-int numRows = 5;
-generatePascal(numRows);
-return 0;
-} 3. Maximum Element in 2D Array
+    int numRows = 5;
+    generatePascal(numRows);
+    return 0;
+}
+```
+
+---
+
+# 3. Maximum Element in 2D Array
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-int maxVal = matrix[0][0];
+    int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int maxVal = matrix[0][0];
 
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
@@ -62,14 +76,20 @@ int maxVal = matrix[0][0];
 
     cout << "Maximum Element: " << maxVal << endl;
     return 0;
+}
+```
 
-} 4. Matrix Transpose
+---
+
+# 4. Matrix Transpose
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-int transposed[3][3];
+    int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int transposed[3][3];
 
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
@@ -85,15 +105,21 @@ int transposed[3][3];
     }
 
     return 0;
+}
+```
 
-} 5. Matrix Multiplication
+---
+
+# 5. Matrix Multiplication
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int A[2][2] = {{1, 2}, {3, 4}};
-int B[2][2] = {{5, 6}, {7, 8}};
-int result[2][2] = {0};
+    int A[2][2] = {{1, 2}, {3, 4}};
+    int B[2][2] = {{5, 6}, {7, 8}};
+    int result[2][2] = {0};
 
     for (int i = 0; i < 2; ++i) {
         for (int j = 0; j < 2; ++j) {
@@ -111,15 +137,21 @@ int result[2][2] = {0};
     }
 
     return 0;
+}
+```
 
-} 6. Diagonal Difference
+---
+
+# 6. Diagonal Difference
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int matrix[3][3] = {{11, 2, 4}, {4, 5, 6}, {10, 8, -12}};
-int n = 3;
-int primaryDiagonal = 0, secondaryDiagonal = 0;
+    int matrix[3][3] = {{11, 2, 4}, {4, 5, 6}, {10, 8, -12}};
+    int n = 3;
+    int primaryDiagonal = 0, secondaryDiagonal = 0;
 
     for (int i = 0; i < n; ++i) {
         primaryDiagonal += matrix[i][i];
@@ -128,14 +160,20 @@ int primaryDiagonal = 0, secondaryDiagonal = 0;
 
     cout << "Diagonal Difference: " << abs(primaryDiagonal - secondaryDiagonal) << endl;
     return 0;
+}
+```
 
-} 7. Sum of All Elements
+---
+
+# 7. Sum of All Elements
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-int sum = 0;
+    int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int sum = 0;
 
     for (int i = 0; i < 3; ++i) {
         for (int j = 0; j < 3; ++j) {
@@ -145,15 +183,21 @@ int sum = 0;
 
     cout << "Sum of All Elements: " << sum << endl;
     return 0;
+}
+```
 
-} 8. Matrix Rotation (90 degrees clockwise)
+---
+
+# 8. Matrix Rotation (90 degrees clockwise)
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-int n = 3;
-int rotated[3][3];
+    int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int n = 3;
+    int rotated[3][3];
 
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -169,15 +213,21 @@ int rotated[3][3];
     }
 
     return 0;
+}
+```
 
-} 9. Largest Submatrix with Equal Elements
+---
+
+# 9. Largest Submatrix with Equal Elements
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int matrix[3][3] = {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}};
-int n = 3;
-int maxSize = 1;
+    int matrix[3][3] = {{1, 1, 1}, {1, 1, 1}, {1, 1, 1}};
+    int n = 3;
+    int maxSize = 1;
 
     for (int i = 0; i < n; ++i) {
         for (int j = 0; j < n; ++j) {
@@ -193,14 +243,20 @@ int maxSize = 1;
 
     cout << "Largest Submatrix with Equal Elements: " << maxSize << endl;
     return 0;
+}
+```
 
-} 10. Maximum Element in Each Row
+---
+
+# 10. Maximum Element in Each Row
+
+```cpp
 #include <iostream>
 using namespace std;
 
 int main() {
-int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
-int n = 3;
+    int matrix[3][3] = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+    int n = 3;
 
     for (int i = 0; i < n; ++i) {
         int maxVal = matrix[i][0];
@@ -213,5 +269,5 @@ int n = 3;
     }
 
     return 0;
-
 }
+```
