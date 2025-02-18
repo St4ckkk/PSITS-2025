@@ -22,7 +22,6 @@ int main() {
     return 0;
 }
 ```
-````
 
 ## 2. Binary Search
 
@@ -306,3 +305,4 @@ int main() {
     return 0;
 }
 ```
+````
