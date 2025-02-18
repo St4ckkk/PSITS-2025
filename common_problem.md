@@ -14,7 +14,6 @@ int main() {
     return 0;
 }
 ```
-````
 
 ## 2. Greeting Generator
 
@@ -169,3 +168,4 @@ int main() {
     return 0;
 }
 ```
+````

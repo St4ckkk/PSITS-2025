@@ -1,11 +1,3 @@
-Here's your README file:
-
----
-
-# Array Operations in C++
-
-This repository contains multiple C++ programs that perform various operations on arrays, such as sum calculation, finding maximum and minimum values, counting even and odd numbers, and more.
-
 ## Programs Included
 
 ### 1. Sum of Array Elements
